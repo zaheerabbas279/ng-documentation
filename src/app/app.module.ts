@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { VerticalAccordionComponent } from './components/vertical-accordion/vertical-accordion.component';
+import { HomeComponent } from './screens/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    VerticalAccordionComponent
+    VerticalAccordionComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
